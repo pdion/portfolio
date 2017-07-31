@@ -1,0 +1,150 @@
+{
+  "section": "career",
+  "quote": "Perfection is not attainable, but if we chase perfection we can catch excellence.",
+  "experiences": [
+    {
+      "title": "Senior Web Developer",
+      "year": "2017",
+      "organisation": "Strikewood",
+      "location": "Victoria, BC",
+      "tasks": "Maintenance of enterprise web sites.<br> Adding service to Laravel.<br>",
+      "technologies": "PHP, Laravel, Javascript, HTML5, CSS3, Bootstrap, Foundation, git"
+    },
+    {
+      "title": "Senior Front End Developer",
+      "year": "2015-2016",
+      "organisation": "Floe Design + Technologies",
+      "location": "Montreal, QC",
+      "tasks": "<P>Developed some functional prototype using the client custom framework. Client was a NYC high profile banking business.</p><p>Maintenance and design of animations on the enterprise web site.</p><p>Integrate the new web page design for a pharmaceutical IT company based in NYC. (MediData Solution)</p><p>Maintenance and development on an online soccer game site using Angular.</P>",
+      "technologies": "Vagrant/Ansible, Javascript, CSS3/HTML5, SASS, Aurelia, Angular, gulp, Drupal,python (Selenium test), Boostrap, Foundation,git"
+    },
+    {
+      "title": "Senior Web Developer",
+      "year": "2015",
+      "organisation": "Mentel",
+      "location": "Montreal, QC",
+      "tasks": "Development of an adult webcam site.<br>Development on a sport event gambling site.",
+      "technologies": "Vagrant, PHP, Laravel, Javascript, HTML5, CSS3, Angular, git, Bootstrap"
+    },
+    {
+      "title": "Senior PHP/Javascript developer",
+      "year": "2014",
+      "organisation": "MyCustomizer.com",
+      "location": "Montreal, QC",
+      "tasks": "Development and maintenance of a customizing framework for online retail eCommerce.",
+      "technologies": "PHP, Javascript, HTML5, AJAX, Web Service, Mootool, MongoDB, Bootstrap"
+    },
+    {
+      "title": "Freelancer PHP developer",
+      "year": "2013",
+      "organisation": "Odotrack",
+      "location": "Laval, QC",
+      "tasks": "Maintenance of the website of the enterprise using PHP and OS Commerce. Development of internal management and accounting tools for the company. Development of delivery management tools using the Purolator API.",
+      "technologies": "PHP, MySQL, HTML5, AJAX, REST Web Service, OS Commerce "
+    },
+    {
+      "title": "Freelance Flash Developer",
+      "year": "2013",
+      "organisation": "MDA",
+      "location": "Montreal, QC",
+      "tasks": "Development of internal learning games for the city of Trois-rivières and the International Civil Aviation Organization (ICAO)",
+      "technologies": "Flash actionscript 3.0, PureMVC, Flash Builder (Eclipse), PHP, MySQL "
+    },
+    {
+      "title": "Senior Flash Developer",
+      "year": "2010-2013",
+      "organisation": "Hybris",
+      "location": "Montreal, QC",
+      "tasks": "Development of customization tools for Reebook product. Maintenance and development of collegeweeklive.com site.",
+      "technologies": "Flash actionscript 3.0, PureMVC, Flash Builder (Eclipse)"
+    },
+    {
+      "title": "Freelance - Senior Flash Developer",
+      "year": "2010",
+      "organisation": "Videotron",
+      "location": "Montreal, QC",
+      "tasks": "Development of a channel combo customization tool for their Illico cable television box.",
+      "technologies": "Flash actionscript 3.0, PureMVC, MachBlue, Flash Builder (Eclipse)"
+    },
+    {
+      "title": "Project Manager",
+      "year": "2010",
+      "organisation": "Odacia",
+      "location": "Montreal, QC",
+      "tasks": "Produce estimate and quotation.<br>Calculate client billing.<br>First line technical support.<br>Manage the team and external suppliers.<br>Manage approbations.<br>Design application.<br>QA Final product",
+      "technologies": "MS Project, Excel and Visio. "
+    },
+    {
+      "title": "Project Manager",
+      "year": "2008-2009",
+      "organisation": "Surf Intelligence Numerique",
+      "location": "Montreal, QC",
+      "tasks": "Produce estimate and quotation.<br>Calculate client billing.<br>First line technical support.<br>Manage the team and external suppliers.<br>Manage approbations.<br>Design application.<br>QA Final product",
+      "technologies": "MS Project, Excel and Visio."
+    },
+    {
+      "title": "Freelance Senior Flash developer",
+      "year": "2007",
+      "organisation": "IC Axon",
+      "location": "Montreal, QC",
+      "tasks": "Develop and maintain a LMS using Flash for a pharmaceutical company. ",
+      "technologies": " PHP,Actionscript 2.0, CVS, FlashDevelop"
+    },
+    {
+      "title": "Team Leader - Flash developer",
+      "year": "2005-2007",
+      "organisation": "Bluesponge",
+      "location": "Montreal, QC",
+      "tasks": "Develop and maintain a LMS using Flash for a pharmaceutical company. ",
+      "technologies": "PHP, MySQL, Actionscript 2.0, FlashDevelop "
+    },
+    {
+      "title": "Senior Web Developer",
+      "year": "2003-2004",
+      "organisation": "Tree Technologies",
+      "location": "Montreal, QC",
+      "tasks": "Develop and maintains the CKOI radio station web site and develop promotional flash game.",
+      "technologies": "PHP, MySQL, Actionscript 2.0, FlashDevelop "
+    },
+    {
+      "title": "Freelance Web Developer",
+      "year": "2003-2004",
+      "organisation": "Bluesponge, Pacini, APCHQ",
+      "location": "Montreal, QC",
+      "tasks": "Business development, quotation writing, PHP/MySQL and flash development.",
+      "technologies": "PHP, MySQL, Actionscript 2.0"
+    },
+    {
+      "title": "Flash Developer",
+      "year": "2002-2003",
+      "organisation": "Bluesponge",
+      "location": "Montreal, QC",
+      "tasks": "Business development, quotation writing, PHP/MySQL and flash development.",
+      "technologies": "Apache, Perl, PostGreSQL, Actionscript 1.0 "
+    },
+    {
+      "title": "Intermediate Perl Programmer",
+      "year": "2000-2002",
+      "organisation": "Ideas and associated",
+      "location": "Montreal, QC",
+      "tasks": "Maintenance and development of the freelotto website.",
+      "technologies": "Linux, Apache, PERL, javascript, HTML"
+    },
+    {
+      "title": "Web Developer",
+      "year": "2000",
+      "organisation": "Alternative",
+      "location": "Rabbat, Morocco",
+      "tasks": "As a part of social development program I was offering technical support and formation to diverse emergent organisation in Morocco. Install a Linux web server and offer formation. Develop window site for some local organisation.",
+      "technologies": "Linux, Apache, HTML"
+    },
+    {
+      "title": "Junior Network Technician / System Administrator",
+      "year": "1999",
+      "organisation": "Insu",
+      "location": "Montreal, QC",
+      "tasks": "Installation and configuration of Linux server.",
+      "technologies": "Linux, Apache, perl, HTML"
+    }
+  ]
+}

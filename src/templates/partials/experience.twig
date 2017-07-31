@@ -1,0 +1,19 @@
+{% for experience in experiences %}
+    <div class="{%   if loop.index%2 %} experience--odd {% else %}experience--even  {% endif %}">
+        <div class="experience__item">
+            <div class="experience__header">
+                <div class="experience__title">{{ experience.title }}</div>
+                <div class="experience__year">{{ experience.year }}</div>
+                <div class="experience__separator"></div>
+                <div class="experience__organisation">{{ experience.organisation }}</div>
+                <div class="experience__location">{{ experience.location }}</div>
+            </div>
+            <div class="experience__description">
+                <h3>Tasks</h3>
+                {{ experience.tasks }}
+                <h3>Technologies Used</h3>
+                {{ experience.technologies }}
+            </div>
+        </div>
+    </div>
+{% endfor %}

@@ -1,0 +1,35 @@
+.card {
+  width: 80%;
+  margin: auto;
+  font-size: 2em;
+
+  & > h3 {
+    margin-bottom: 60px;
+  }
+}
+
+.card__item {
+  float: left;
+  width: 100%;
+  min-height: 350px;
+  border: 1px solid $grey-dark;
+
+  margin-bottom: 30px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+
+  font-family: $font-sans;
+  color: $grey-dark;
+}
+
+@media screen and (min-width: 1024px) {
+  .card {
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .card__item {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(50% - 20px);
+  }
+}

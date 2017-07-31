@@ -1,0 +1,54 @@
+.hero {
+  position: relative;
+  width: 100%;
+  height: 740px;
+
+  color: white;
+  text-align: center;
+
+
+  &--about {
+    @extend .hero;
+    background-image: url('#{$images-dir}/about-hero.jpg');
+  }
+
+  &--skills {
+    @extend .hero;
+    background-image: url('#{$images-dir}/skills-hero.jpg');
+  }
+
+  &--career {
+    @extend .hero;
+    background-image: url('#{$images-dir}/career-hero.jpg');
+  }
+  &--education {
+    @extend .hero;
+    background-image: url('#{$images-dir}/education-hero.jpg');
+  }
+
+}
+
+.hero__text {
+  position: relative;
+  top: 220px;
+  padding-right: 20px;
+  padding-left: 20px;
+
+  margin: auto;
+  text-align: center;
+}
+
+.hero__title {
+  text-transform: uppercase;
+  font-family: $font-sans;
+  font-size: 5em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.hero__subtitle {
+  margin-top: -30px;
+  font-size: 1.7em;
+  font-family: $font-sherif;
+}
+

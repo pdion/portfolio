@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Khula|Zilla+Slab');
+
+$font-sherif: 'Zilla Slab', serif;
+$font-sans: 'Khula', sans-serif;
+
+.text__note {
+  font-style: italic;
+  font-size: 0.7em;
+  color: $grey-medium;
+  font-family: $font-sherif;
+
+}
+
+h1 {
+  font-family: $font-sherif;
+  color: $grey-dark;
+  font-size: 1.7em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: $font-sherif;
+  color: $grey-dark;
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h3 {
+  font-family: $font-sherif;
+  color: $grey-dark;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

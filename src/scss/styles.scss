@@ -1,0 +1,45 @@
+@import 'variables';
+@import 'type/_typography';
+@import 'component/hero';
+@import 'component/header';
+@import 'component/menu';
+@import 'component/card';
+@import 'component/experience';
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+div {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0px;
+  margin-bottom: 40px;
+}
+
+a {
+  font-family: $font-sherif;
+  font-size: 0.7em;
+}
+
+a:link {
+  text-decoration: none;
+  color: $grey-medium;
+}
+a:visited {
+  text-decoration: none;
+  color: $grey-medium;
+}
+a:hover {
+  text-decoration: none;
+  color: $grey-medium;
+}
+a:active {
+  text-decoration: none;
+  color: $grey-medium;
+}

@@ -1,0 +1,82 @@
+.experience {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  margin-bottom: 45px;
+  color: $grey-dark;
+  font-family: $font-sans;
+}
+
+.experience--odd {
+  @extend .experience;
+  background-color: $grey-light;
+}
+
+.experience--even {
+  @extend .experience;
+  background-color:white;
+}
+
+.experience__item {
+  width: 80%;
+  font-size: 2em;
+  margin: auto;
+}
+
+.experience__header {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.experience__title {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  text-align: left;
+  color: $grey-dark;
+  font-family: $font-sherif;
+  font-weight: bold;
+}
+
+.experience__year {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  text-align: right;
+  color: $grey-dark;
+  font-family: $font-sherif;
+  font-weight: bold;
+}
+
+.experience__organisation {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  text-align: left;
+}
+
+.experience__location {
+  display: inline-block;
+  width: 50%;
+  white-space: normal;
+  text-align: right;
+}
+
+.experience__separator {
+  width: 100%;
+  height: 5px;
+  border-bottom: 1px solid black;
+}
+
+.experience__description {
+  display: inline-block;
+  width: 100%;
+  white-space: normal;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 1024px) {
+  .experience__item {
+    width: 60%;
+    font-size: 1.5em;
+  }
+}
