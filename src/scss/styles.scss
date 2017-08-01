@@ -1,10 +1,12 @@
 @import 'variables';
-@import 'type/_typography';
+@import 'font-awesome/font-awesome';
+@import 'type/typography';
 @import 'component/hero';
 @import 'component/header';
 @import 'component/menu';
 @import 'component/card';
 @import 'component/experience';
+@import 'component/footer';
 
 body {
   margin: 0px;
@@ -22,11 +24,6 @@ p {
   margin-bottom: 40px;
 }
 
-a {
-  font-family: $font-sherif;
-  font-size: 0.7em;
-}
-
 a:link {
   text-decoration: none;
   color: $grey-medium;
@@ -42,4 +39,10 @@ a:hover {
 a:active {
   text-decoration: none;
   color: $grey-medium;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

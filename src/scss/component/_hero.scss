@@ -25,6 +25,10 @@
     @extend .hero;
     background-image: url('#{$images-dir}/education-hero.jpg');
   }
+  &--portfolio {
+    @extend .hero;
+    background-image: url('#{$images-dir}/portfolio-hero.jpg');
+  }
 
 }
 

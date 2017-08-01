@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include 'partials/html-header.twig' %}
+</head>
+<body>
+{% include "partials/hero.twig" %}
+<div class="header">
+    <div class="header__title">Portfolio</div>
+    <div class="header__subtitle">Some of the cool stuff I did</div>
+    <div class="header__icon"><img src="assets/images/icon-header-1.jpg"></div>
+    <div class="header__text">
+        <h1>Example of my work</h1>
+        <p>
+            <h3>This resume</h3>
+            I build this resume using gulp, sass and twig to create a simple static website generator.<br>
+            <a href="https://github.com/pdion/portfolio"><i>View the sources</i></a>
+        </p>
+        <p>
+            <h3>Simple Laravel Service</h3>
+            The code is not really functional as it need to connect to a varan service and be integrated in a Laravel site but it is an example of how I code in PHP.<br>
+            <a href="https://github.com/pdion/ran-php-client"><i>View the sources</i></a>
+        </p>
+        <p>
+        <h3>Floe Design + Technologies</h3>
+        The site of Floe Design + Technologies. Note the menu that disappear and the nice animation. Animation help to tell your story.<br>
+        <a href="https://www.floe.ca/en/about/"><i>View the site</i></a>
+        </p>
+        <p>
+        <h3>MediData website</h3>
+        This the medidata website I worked on when working with Floe Design + Technologies.<br>
+        <a href="https://www.mdsol.com/en"><i>View the site</i></a>
+        </p>
+    </div>
+</div>
+{% include "partials/footer.twig" %}
+</body>

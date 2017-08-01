@@ -23,7 +23,7 @@
       "year": "2015",
       "organisation": "Mentel",
       "location": "Montreal, QC",
-      "tasks": "Development of an adult webcam site.<br>Development on a sport event gambling site.",
+      "tasks": "Development of an adult webcam site in Laravel.<br>Development on a sport event gambling site in Angular.",
       "technologies": "Vagrant, PHP, Laravel, Javascript, HTML5, CSS3, Angular, git, Bootstrap"
     },
     {

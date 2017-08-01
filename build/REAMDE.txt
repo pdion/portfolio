@@ -1,0 +1,6 @@
+INSTRUCTIONS
+
+1. Unzip this files in a directory.
+2. Open index.html in your favorite browser.
+3. Enjoy!
+
