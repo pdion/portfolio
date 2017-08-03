@@ -1,17 +1,8 @@
+{% set sections = ["about","skills","career","education","portfolio"] %}
 <div class="menu">
-    <div class="{% if section == "about" %}  menu__item--selected {% else %} menu__item {% endif %}">
-        {% if section != "about" %} <a href="index.html">About</a> {% else %} About {% endif %}
+    {% for name in sections %}
+    <div class="{% if section == name %}  menu__item--selected {% else %} menu__item menu__item--expandable{% endif %}">
+        {% if section != name %} <a href="index.html">{{ name}}</a> {% else %} {{ name}} {% endif %}
     </div>
-    <div class="{% if section == "skills" %} menu__item--selected {% else %} menu__item {% endif %}">
-        {% if section != "skills" %} <a href="skills.html">Skills</a> {% else %} Skills {% endif %}
-    </div>
-    <div class="{% if section == "career" %} menu__item--selected {% else %} menu__item {% endif %}">
-        {% if section != "career" %} <a href="career.html">Career</a> {% else %} Career {% endif %}
-    </div>
-    <div class="{% if section == "education" %} menu__item--selected {% else %} menu__item {% endif %}">
-        {% if section != "education" %} <a href="education.html">Education</a> {% else %} Education {% endif %}
-    </div>
-    <div class="{% if section == "portfolio" %} menu__item--selected {% else %} menu__item {% endif %}">
-        {% if section != "portfolio" %} <a href="portfolio.html">Portfolio</a> {% else %} Portfolio {% endif %}
-    </div>
+    {% endfor %}
 </div>
