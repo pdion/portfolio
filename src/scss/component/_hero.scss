@@ -1,7 +1,7 @@
 .hero {
   position: relative;
   width: 100%;
-  height: 740px;
+  height: 740px !important;
 
   color: white;
   text-align: center;
@@ -9,25 +9,25 @@
 
   &--about {
     @extend .hero;
-    background-image: url('#{$images-dir}/about-hero.jpg');
+    background-image: url('#{$images-dir}/about-hero.jpg') !important;
   }
 
   &--skills {
     @extend .hero;
-    background-image: url('#{$images-dir}/skills-hero.jpg');
+    background-image: url('#{$images-dir}/skills-hero.jpg') !important;
   }
 
   &--career {
     @extend .hero;
-    background-image: url('#{$images-dir}/career-hero.jpg');
+    background-image: url('#{$images-dir}/career-hero.jpg') !important;
   }
   &--education {
     @extend .hero;
-    background-image: url('#{$images-dir}/education-hero.jpg');
+    background-image: url('#{$images-dir}/education-hero.jpg') !important;
   }
   &--portfolio {
     @extend .hero;
-    background-image: url('#{$images-dir}/portfolio-hero.jpg');
+    background-image: url('#{$images-dir}/portfolio-hero.jpg') !important;
   }
 
 }

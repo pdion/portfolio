@@ -1,8 +1,14 @@
-{% set sections = ["about","skills","career","education","portfolio"] %}
+{% set sections = [
+    { page: "index", name:"about"},
+    { page: "skills", name:"skills"},
+    { page: "career", name:"career"},
+    { page: "education", name:"education"},
+    { page: "portfolio", name:"portfolio"}
+] %}
 <div class="menu">
-    {% for name in sections %}
-    <div class="{% if section == name %}  menu__item--selected {% else %} menu__item menu__item--expandable{% endif %}">
-        {% if section != name %} <a href="index.html">{{ name}}</a> {% else %} {{ name}} {% endif %}
+    {% for config in sections %}
+    <div class="{% if section == config.name %}  menu__item--selected {% else %} menu__item menu__item--expandable{% endif %}">
+        {% if section != config.name %} <a href="{{ config.page }}.html">{{ config.name}}</a> {% else %} {{ config.name}} {% endif %}
     </div>
     {% endfor %}
 </div>
