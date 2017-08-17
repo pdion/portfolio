@@ -8,12 +8,12 @@
 
 .experience--odd {
   @extend .experience;
-  background-color: $grey-light;
+  background-color:white;
 }
 
 .experience--even {
   @extend .experience;
-  background-color:white;
+  background-color: $grey-light;
 }
 
 .experience__item {

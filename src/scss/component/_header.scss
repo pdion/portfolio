@@ -1,9 +1,18 @@
 .header {
   width: 100%;
   padding-top: 90px;
-  padding-bottom: 70px;
+  //padding-bottom: 70px;
   background-color: white;
   text-align: center;
+
+  li {
+    margin-bottom: 20px;
+  }
+
+  ul {
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
 }
 
   .header__title {

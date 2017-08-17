@@ -7,8 +7,12 @@
 ] %}
 <div class="menu">
     {% for config in sections %}
-    <div class="{% if section == config.name %}  menu__item--selected {% else %} menu__item menu__item--expandable{% endif %}">
-        {% if section != config.name %} <a href="{{ config.page }}.html">{{ config.name}}</a> {% else %} {{ config.name}} {% endif %}
+    <div class="{% if section == config.name or subsection == config.name %}  menu__item--selected {% else %} menu__item menu__item--expandable{% endif %}">
+        {% if section == config.name or subsection == config.name %}
+            {{ config.name}}
+        {% else %}
+            <a href="{{ config.page }}.html">{{ config.name}}</a>
+        {% endif %}
     </div>
     {% endfor %}
 </div>

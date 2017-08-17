@@ -29,6 +29,10 @@
     @extend .hero;
     background-image: url('#{$images-dir}/portfolio-hero.jpg') !important;
   }
+  &--experiment {
+    @extend .hero;
+    background-image: url('#{$images-dir}/experiment-hero.jpg') !important;
+  }
 
 }
 

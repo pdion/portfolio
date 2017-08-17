@@ -1,5 +1,5 @@
 {% for experience in experiences %}
-    <div class="{%   if loop.index%2 %} experience--odd {% else %}experience--even  {% endif %}">
+    <div class="{% if loop.index%2 %} experience--odd {% else %}experience--even  {% endif %}">
         <div class="experience__item">
             <div class="experience__header">
                 <div class="experience__title">{{ experience.title }}</div>
